@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "187296968296",
+    "project_id": "real-bread-app",
+    "storage_bucket": "real-bread-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187296968296:android:f5278db4befe05e0ce55dd",
+        "android_client_info": {
+          "package_name": "com.example.realbreadapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187296968296-10d863hdln3afqotb9jncfolpak9b8vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnYt3bOYn5zatP3pK-3DZkiYPknZ0M0lU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187296968296-10d863hdln3afqotb9jncfolpak9b8vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187296968296:android:1879f411babee504ce55dd",
+        "android_client_info": {
+          "package_name": "com.example.realbreadbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187296968296-10d863hdln3afqotb9jncfolpak9b8vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnYt3bOYn5zatP3pK-3DZkiYPknZ0M0lU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187296968296-10d863hdln3afqotb9jncfolpak9b8vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

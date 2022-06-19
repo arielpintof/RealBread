@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layerType="none">
+
+
+    <TextView
+        android:id="@+id/nombre_producto_carrito"
+        android:layout_width="192dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:text="Pizza Margarita Tradicional"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/boton_eliminar"
+        app:layout_constraintStart_toEndOf="@+id/imagen_producto_carrito"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/precio_producto_carrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$3000"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/res"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nombre_producto_carrito" />
+
+    <TextView
+        android:id="@+id/descripcion_producto_carrito"
+        android:layout_width="182dp"
+        android:layout_height="37dp"
+        android:text="Masa Madre, harina de fuerza, sal y agua filtrada"
+        app:layout_constraintBottom_toTopOf="@+id/precio_producto_carrito"
+        app:layout_constraintEnd_toEndOf="@+id/nombre_producto_carrito"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nombre_producto_carrito"
+        app:layout_constraintTop_toBottomOf="@+id/nombre_producto_carrito" />
+
+    <CheckBox
+        android:id="@+id/radio_producto_carrito"
+        android:layout_width="34dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imagen_producto_carrito"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <ImageView
+        android:id="@+id/imagen_producto_carrito"
+        android:layout_width="102dp"
+        android:layout_height="106dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radio_producto_carrito"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/boton_eliminar"
+        android:layout_width="28dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nombre_producto_carrito"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <ImageView
+        android:id="@+id/res"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        app:tint="#373535"
+        app:layout_constraintEnd_toStartOf="@+id/contador"
+        app:layout_constraintTop_toBottomOf="@+id/descripcion_producto_carrito"
+        app:srcCompat="@drawable/ic_sub_icon" />
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="40dp"
+        app:tint="#373535"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/res"
+        app:srcCompat="@drawable/ic_add" />
+
+    <TextView
+        android:id="@+id/contador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:text="1"
+        app:layout_constraintEnd_toStartOf="@+id/add"
+        app:layout_constraintTop_toTopOf="@+id/add" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
